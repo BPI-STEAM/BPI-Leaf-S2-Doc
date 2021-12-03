@@ -12,7 +12,7 @@ screen = Max7219(width=8,#LED点阵宽
                  height=8,#LED点阵高
                  spi=spi, #设置SPI
                  cs=Pin(2,Pin.OUT),#CS
-                 rotate_180=False)
+                 rotate_180=False) #不进行180度翻转
 text= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 list1 = []
 for x in text:
