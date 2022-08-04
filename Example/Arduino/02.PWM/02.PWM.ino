@@ -1,7 +1,7 @@
 #define LED_CHANNEL_0     0    //设置通道0 
 #define LED_TIMER_13_BIT  13   //设置13位定时器
 #define LED_BASE_FREQ     5000 //设置定时器频率位5000Hz 
-#define LED_PIN            13  //设置LED灯 
+#define LED_PIN            9  //设置LED灯 
 
 int brightness = 0;    // LED亮度
 int fadeAmount = 1;    // LED数量
